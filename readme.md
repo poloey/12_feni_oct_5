@@ -3,7 +3,7 @@
 
 # JavaScript Selector
 In javascript, selector will return us string or array. When we select single element like body, title, head, id it will give us string. When we select multiple element like html tag, class selector return us an array. 
-We can change/mutate string return. Therefore in order to change array we have to change/mutate by  destructuring array into string.     
+We can change/mutate string return. Therefore, in order to change array we have to change/mutate by  destructuring array into string.     
 let my html content is following:  
 ~~~html
 <h1 id="hello">some id heading</h1>
