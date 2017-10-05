@@ -6,7 +6,7 @@ In javascript, selector will return us string or array. When we select single el
 We can change/mutate string return. Therefore in order to change array we have to change/mutate by  destructuring array into string. 
 let string selector 
 ~~~html
-"<h1 id="hello">some id heading</h1>"
+<h1 id="hello">some id heading</h1>
 ~~~
 We can change by following code
 ~~~js
@@ -15,10 +15,11 @@ heading.innerHtml = 'Some id heading from js';
 ~~~
 let array selector
 ~~~html
-  "<h1 class="row">some class heading</h1>",
-  "<h1 class="row">some class heading</h1>",
-  "<h1 class="row">some class heading</h1>",
-  "<h1 class="row">some class heading</h1>"
+  <h1 class="row">some class heading</h1>
+  <h1 class="row">some class heading</h1>
+  <h1 class="row">some class heading</h1>
+  <h1 class="row">some class heading</h1>
+  <h1 class="row">some class heading</h1>
 ~~~
 We can change by following code. 
 ~~~js
