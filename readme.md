@@ -2,7 +2,7 @@
 ### View [all class list](https://github.com/poloey/feni)
 
 # JavaScript Selector
-In javascript selector will return us string or array based on our selection. When we select single element like body, title, head, id it will give us string. When we select multiple element like html tag, class selector return us a array. 
+In javascript, selector will return us string or array. When we select single element like body, title, head, id it will give us string. When we select multiple element like html tag, class selector return us an array. 
 We can change/mutate string return. Therefore in order to change array we have to change/mutate by  destructuring array into string. 
 let string selector 
 ~~~html
@@ -15,12 +15,10 @@ heading.innerHtml = 'Some id heading from js';
 ~~~
 let array selector
 ~~~html
-[
   "<h1 class="row">some class heading</h1>",
   "<h1 class="row">some class heading</h1>",
   "<h1 class="row">some class heading</h1>",
   "<h1 class="row">some class heading</h1>"
-]
 ~~~
 We can change by following code. 
 ~~~js
@@ -57,7 +55,7 @@ document.getElementsByTagName('html tag');
 ~~~
 
 # New javascript query selector
-In new javascript we can select dom element using css selector. Its actually cut all complexity of javaScript earlier selection.
+In new javascript, we can select dom element using css selector. Its actually cut all complexity of javaScript selection.
 ### to select singular value like id, single element
 ~~~js
 var hello = document.querySelector('#hello');
@@ -65,7 +63,7 @@ hello.innerHTML = 'some html content by js';
 ~~~
 ### To select multiple/plural value
 ~~~js
-var row = document.querySelector('.row');
+var row = document.querySelectorAll('.row');
 row[0].innerHTML = 'some html content by js';
 ~~~
 `querySelectorAll` return an array. We can't change array directly in js. We can change only string. So we destruct array by its index and change the content or style 
