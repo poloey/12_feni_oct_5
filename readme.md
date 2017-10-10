@@ -1,6 +1,5 @@
+# [:house: Feni Batch Home Page](http://poloey.github.io/feni)
 # Class 12
-### View [all class list](https://poloey.github.io/feni/)
-
 # JavaScript Selector
 In javascript, selector will return us string or array. When we select single element like body, title, head, id it will give us string. When we select multiple element like html tag, class selector return us an array. 
 We can change/mutate string return. Therefore, in order to change array we have to change/mutate by  destructuring array into string.     
