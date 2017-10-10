@@ -1,5 +1,5 @@
 # Class 12
-### View [all class list](https://github.com/poloey/feni)
+### View [all class list](https://poloey.github.io/feni/)
 
 # JavaScript Selector
 In javascript, selector will return us string or array. When we select single element like body, title, head, id it will give us string. When we select multiple element like html tag, class selector return us an array. 
