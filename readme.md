@@ -1,4 +1,4 @@
-# [:house: Feni Batch Home Page](http://poloey.github.io/feni)
+# [:house: H-43 Home Page](https://poloey.gitlab.io/h43/)
 # Class 12
 # JavaScript Selector
 In javascript, selector will return us string or array. When we select single element like body, title, head, id it will give us string. When we select multiple element like html tag, class selector return us an array. 
